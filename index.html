@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>RIFA BOOTCAMP</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <audio id="myAudio">
+    <source src="data/roulete.mp3" type="audio/mpeg">
+  </audio>
+
+
+  <section id="preload" class=" ">
+    <div id="loading" class=" "></div>
+  </section>
+
+  <nav class="navbar navbar-expand-lg navbar-dark static-top">
+    <div class="container">
+      <a class="navbar-brand mx-auto" href="#">
+        <img src="img/logos/baner.png" width="100%" alt="">
+      </a>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!--div class="flex-center flex-column"-->
+    <div class="row mt-4">
+      <div class="col-lg-6 col-md-6 col-sm-6 text-right mb-3"><button id="generar"
+          class="btn btn-success">Generar</button></div>
+      <div class="col-lg-6 col-md-6 col-sm-6 text-left mb-3"><button id="reiniciar"
+          class="btn btn-info">Reiniciar</button>
+      </div>
+    </div>
+
+    <!-- Start your project here -->
+    <div style="height: 100vh">
+
+
+      <div class="row">
+        <div class="col-lg-5 col-md-5 col-sm-5">
+          <img id="gift" src="img/svg/giftbox.svg" class="mx-auto animated fast infinite delay-1s"
+            alt="Imagen de baja de regalo">
+        </div>
+
+        <div class="col-lg-7 col-md-7 col-sm-7">
+
+          <div class="row mt-2">
+            <div class="col-lg-2 col-md-2 col-sm-2 my-auto">
+              <img src="img/svg/gold-medal.svg" class="mw-100 mh-100" alt="Imagen de una medalla de oro">
+            </div>
+
+            <div class="col-lg-10 text-center">
+              <h2 class="my-auto">NÚMERO GANADOR</h2>
+
+              <div id="code" class=" rounded bg-warning d-inline-block mx-auto display-4"> -- </div>
+            </div>
+
+          </div>
+          <br>
+          <div class="row mt-2">
+            <div class="col-lg-2 col-md-2 col-sm-2 my-auto">
+              <img src="img/svg/user.svg" class="mw-100 mh-100" alt="Imagen de una medalla de oro">
+            </div>
+            <div class="col-lg-10 my-auto text-center">
+              <h3 id="fullname">xx - xx - xx - xx </h3>
+            </div>
+          </div>
+          <br>
+          <div class="row mt-2">
+            <div class="col-lg-2 col-md-2 col-sm-2 my-auto">
+              <img src="img/svg/school.svg" class="mw-100 mh-100" alt="Imagen de una medalla de oro">
+            </div>
+            <div class="col-lg-10 my-auto text-center">
+              <h4 id="institution"> xx - xx </h4>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <!-- Start your project here-->
+
+  </div>
+  <!-- /.container -->
+
+
+  <!-- Footer -->
+  <footer class="page-footer font-small blue">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">
+      © 2019 Copyright: Oficina TIC</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+
+  <!-- SCRIPTS -->
+
+  <script>
+    var x = document.getElementById("myAudio");
+
+    function playAudio() {
+      x.play();
+    }
+
+    function pauseAudio() {
+      x.pause();
+    } 
+  </script>
+
+
+  <script type="text/javascript" src="js/list.json.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+
+</body>
+
+</html>
